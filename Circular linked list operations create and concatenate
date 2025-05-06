@@ -63,6 +63,9 @@ NODE concatenateLists(NODE head1, NODE head2){
 }
 
 int main() {
+    NODE head1 = NULL, head2 = NULL;
+    int choice, data;
+
     do {
         printf("1. Create Circular Linked List 1\n");
         printf("2. Create Circular Linked List 2\n");
